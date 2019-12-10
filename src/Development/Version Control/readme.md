@@ -21,13 +21,6 @@ Our guidelines around:
 - [When and how to `cherry-pick`](#cherry-picking)
 - [When and how to do a hot fix](#hot-fixing)
 
-## Github - Pivotal Tracker Integration
-
-We use Pivotal Tracker (PT) as our defacto project management tool. It has a very nice integration with Github [that is explained in detail here](https://www.pivotaltracker.com/integrations/GitHub/). With this, you can:
-
-- Automatically attach pull requests, branches, and commits to a PT story.
-- You can still connect one PT board to multiple repositories. Very useful especially when working with n-tier and microservice architectures where one project will have multiple repos.
-
 ### Rebasing
 >Rebasing is taking all your branch's commits and adding them on top of later commits that were added to the branch you created yours from. This is useful when say you created your feature branch from `develop` and as you were working, your team members completed theirs and their pr's were merged. Rebasing will make sure your commits are added after theirs on your feature branch and `develop`.
 
