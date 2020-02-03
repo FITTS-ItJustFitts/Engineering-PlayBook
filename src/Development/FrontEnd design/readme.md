@@ -31,5 +31,5 @@
 
 
 ## Example Project
-[React App Template]()
+[React App Template](https://github.com/FITTS-HUB/react-template)
       
